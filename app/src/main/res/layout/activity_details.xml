@@ -8,10 +8,11 @@
     tools:context="com.android.jyang.fragment.activities.MainActivity">
 
     <fragment
-        android:id="@+id/dataFragment"
-        android:name="com.android.jyang.fragment.fragments.DataFragment"
+        android:id="@+id/detailsFragment"
+        android:name="com.android.jyang.fragment.fragments.DetailsFragment"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        tools:layout="@layout/fragment_data"/>
+        tools:layout="@layout/fragment_details"/>
+
 </LinearLayout>
